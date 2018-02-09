@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "name": "Leticia",
+  "version": "1.0.0",
+  "description": "Leticia",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "LeticiaEspinoza"
+}
