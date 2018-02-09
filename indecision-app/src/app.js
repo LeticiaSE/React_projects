@@ -86,7 +86,7 @@ var Opciones={
         <li>Practica2:Listo(sin enviarla)</li>
         <li>Practica3:Listo(sin enviarla)</li>
         <li>Curso de Java: En progreso</li>
-        <li>ayyy las tareas...!!!</li>
+        <li>ayyy y las tareas...!!!</li>
     </ol>
   </div>
   );

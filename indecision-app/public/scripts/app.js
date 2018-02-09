@@ -167,7 +167,7 @@ var templateOpciones = React.createElement(
     React.createElement(
       'li',
       null,
-      'ayyy las tareas...!!!'
+      'ayyy y las tareas...!!!'
     )
   )
 );
