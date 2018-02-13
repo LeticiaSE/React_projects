@@ -84,35 +84,24 @@ var templateDos = (
 );*/
 //tratandolo como objeto
 
-var user = {
-  Name: 'Leticia',
-  Age: 25,
-  location: 'Tijuana'
+
+/*var user={
+    Name:'Leticia',
+    Age:25,
+    location:'Tijuana'
 };
 
-var templateDos = React.createElement(
-  'div',
-  null,
-  React.createElement(
-    'h1',
-    null,
-    user.Name
-  ),
-  React.createElement(
-    'p',
-    null,
-    'Edad:',
-    user.Age
-  ),
-  React.createElement(
-    'p',
-    null,
-    'Ciudad:',
-    user.location
-  )
+
+var templateDos = (
+<div>
+  <h1>{user.Name}</h1>
+  <p>Edad:{user.Age}</p>
+  <p>Ciudad:{user.location}</p>
+</div>
 );
 var appRoot = document.getElementById('app');
 ReactDOM.render(templateDos, appRoot);
+*/
 
 /*#Modificar el objeto app y agregar
   opcion1,opcion3,opcion1,opcion5
@@ -174,3 +163,42 @@ var templateOpciones = React.createElement(
 
 var appRoot = document.getElementById('app');
 ReactDOM.render(templateOpciones, appRoot);
+
+/*# Cambiar var por let o const
+ */
+
+var userName = "Leticia";
+var userAge = 25;
+var userlocation = 'Tijuana';
+
+var templateDos = React.createElement(
+  'div',
+  null,
+  React.createElement(
+    'h1',
+    null,
+    userName
+  ),
+  React.createElement(
+    'p',
+    null,
+    'Edad:',
+    userAge
+  ),
+  React.createElement(
+    'p',
+    null,
+    'Ciudad:',
+    userlocation
+  )
+);
+
+//Practica#
+
+var squareArrowTwo = function squareArrowTwo(x) {
+  return 'Leticia';
+};
+console.log(squareArrowTwo(''));
+
+var appRoot = document.getElementById('app');
+ReactDOM.render(templateDos, appRoot);

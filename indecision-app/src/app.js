@@ -49,7 +49,8 @@ var templateDos = (
 );*/
 //tratandolo como objeto
 
-var user={
+
+/*var user={
     Name:'Leticia',
     Age:25,
     location:'Tijuana'
@@ -65,7 +66,7 @@ var templateDos = (
 );
 var appRoot = document.getElementById('app');
 ReactDOM.render(templateDos, appRoot);
-
+*/
 
 /*#Modificar el objeto app y agregar
   opcion1,opcion3,opcion1,opcion5
@@ -93,3 +94,29 @@ var Opciones={
 
   var appRoot = document.getElementById('app');
   ReactDOM.render(templateOpciones, appRoot);
+
+
+  /*# Cambiar var por let o const
+
+  */
+
+  const userName="Leticia";
+  const userAge=25;
+  const userlocation='Tijuana'
+
+  const templateDos = (
+  <div>
+    <h1>{userName}</h1>
+    <p>Edad:{userAge}</p>
+    <p>Ciudad:{userlocation}</p>
+  </div>
+  );
+
+  //Practica#
+
+  const squareArrowTwo = (x) => 'Leticia';
+  console.log(squareArrowTwo(''))
+
+  
+  var appRoot = document.getElementById('app');
+  ReactDOM.render(templateDos, appRoot);
