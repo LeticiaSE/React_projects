@@ -112,11 +112,35 @@ var Opciones={
   </div>
   );
 
-  //Practica#
+  //Practica#3 13/02/2018
 
-  const squareArrowTwo = (x) => 'Leticia';
-  console.log(squareArrowTwo(''))
+//let userName
+//let userAge
+//let userlocation
+//  const squareArrowTwo = (x) => 'Leticia';
+//  console.log(squareArrowTwo(''))
 
-  
-  var appRoot = document.getElementById('app');
-  ReactDOM.render(templateDos, appRoot);
+
+//  var appRoot = document.getElementById('app');
+//  ReactDOM.render(templateDos, appRoot);
+const user = {
+  name: 'Cristian',
+  cities: ['Tijuana','Guadalajara','Ensenada'],
+  printPlace(){
+    const cityMessages = this.cities.map((city) => {
+    return this.name + 'has been in ' + city;
+    return this.cities.map((city)) => this.name +'has been in' +city);
+    return cityMessages;
+  }
+};
+
+console.log(user.printPlace());
+//Practica
+//const multiplier ={
+//numbers -arreglo de numeros[1,2]
+//multiplyBY =un solo numero
+//multiply - regresa un nuevo arreglo multiplicado
+//}
+//verlo con console.log(multiplier.multiply()) //[2,4]
+
+c
